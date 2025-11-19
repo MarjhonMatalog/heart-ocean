@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Gallery — Heart Of D' Ocean Beach Resort</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.php">Heart Of D' Ocean Beach Resort</a>
+      <nav class="nav" id="mainNav">
+        <button class="close-menu" id="closeMenu">✕</button>
+        <a href="index.php">Home</a>
+        <a href="rooms.php">Cottages</a>
+        <a href="gallery.php">Gallery</a>
+        <a href="booking.php" class="cta">Book Now</a>
+        <button id="darkToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+      <button id="menuBtn" class="hamburger" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Our Gallery</h1>
+    
+    <div class="masonry">
+      <img src="images&vids/1.jpg" alt="Resort photo 1">
+      <img src="images&vids/2.jpg" alt="Resort photo 2">
+      <img src="images&vids/3.jpg" alt="Resort photo 3">
+      <img src="images&vids/4.jpg" alt="Resort photo 4">
+      <img src="images&vids/6.jpg" alt="Resort photo 5">
+      <img src="images&vids/7.jpg" alt="Resort photo 6">
+      <img src="images&vids/8.jpg" alt="Resort photo 7">
+      <img src="images&vids/8.jpg" alt="Resort photo 8">
+      <img src="images&vids/10.jpg" alt="Resort photo 9">
+      <img src="images&vids/11.jpg" alt="Resort photo 10">
+      <img src="images&vids/12.jpg" alt="Resort photo 11">
+    </div>
+  </main>
+
+  <footer class="site-footer container">
+    <div>© 2025 Heart Of D' Ocean Beach Resort</div>
+    <div class="muted">Your perfect beach getaway destination</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
